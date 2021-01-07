@@ -6,7 +6,7 @@ html, body{
     
 }
 .wrapper{
-    background-image: url(bg.png);
+    background-image: url(images/bg.png);
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
