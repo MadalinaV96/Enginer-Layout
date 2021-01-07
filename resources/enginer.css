@@ -6,7 +6,7 @@ html, body{
     
 }
 .wrapper{
-    background-image: url(images/bg.png);
+    background-image: url(/Enginer-Layout/Enginer-Layout/images/bg.png);
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
