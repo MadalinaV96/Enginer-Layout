@@ -6,7 +6,12 @@ html, body{
     
 }
 .wrapper{
-    background-image: url(/Enginer-Layout/Enginer-Layout/images/bg.png);
+    /* se pare ca iar avem probleme cu navigarea. Nu s-a inteles? este cazil sa mai trecem o data prin ea? */
+    /* este vorba de navigare relativa, trebuie sa te raportezi la pozitia ta, la CSS. Cum faci tu eu nu vad nimic, pentru ca se raporteaza absolut la ce ai tu la tine in calculator, care evident nu poate fi acelasi path cu ce am eu, decat daca e relativ */
+    /* background-image: url(/Enginer-Layout/Enginer-Layout/images/bg.png); */
+    
+    /* te rog, daca nu este clar sa mai discutam */
+    background-image: url(../images/bg.png);
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,10 +25,11 @@ nav{
     height: auto;
     width: 700px;
     /*border: 2px solid red;*/
+    /* de ce trebuie sa pozitionam aici? */
     position: absolute;
     padding: 2px;
     margin: 20px -80px;
-  
+    /* toate randurile acestea libere nu le inteleg aici */
    
    
 }
@@ -31,13 +37,13 @@ ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
+    /* sau aici */
     
 }
 ul li{
     text-decoration: none;
     justify-content: space-evenly;
-   
+   /* sau aici */
    
 }
 ul li a{
@@ -60,6 +66,7 @@ ul li a{
     height: auto;
     width: 500px;
     /*border:2px solid gray;*/
+    /* de ce avem nevoie de pozitionare aici? nu isi are sensul, este doar spatiere */
     position:relative;
     top:150px;
 }
@@ -84,6 +91,7 @@ h2{
     height: 100px;
     width: 250px;
     /*border: 2px solid green;*/
+    /* si pozitionat totul manual, contrar a ceea ce am discutat noi. Pare mai easy, dar nu este, pe un ecran diferit de al tau nu mai merge si practic ai lucrat degeaba */
     position: relative;
     bottom: -180px;
     
